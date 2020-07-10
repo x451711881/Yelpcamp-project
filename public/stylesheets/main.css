@@ -1,0 +1,21 @@
+body{
+    background-color: gainsboro;
+}
+.thumbnail img{
+    width: 100%;
+}
+.thumbnail{
+    padding:0;
+}
+
+/* .thumbnail .caption-full{
+    padding: 9px;
+} */ 
+/* 这个和show.ejs里使用class=caption 而不是class=caption-full 效果一样 */
+.delete-form{
+    display:inline;
+}
+
+.checked {
+    color: orange;
+}
