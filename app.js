@@ -13,7 +13,7 @@ var express = require("express");
     seedDB = require("./seeds");
 const dotenv = require("dotenv");
 dotenv.config();
-//have a try
+
 var commentRoutes = require ("./routes/comments"); 
     reviewRoutes  = require("./routes/reviews");
     campgroundRoutes = require("./routes/campgrounds");
